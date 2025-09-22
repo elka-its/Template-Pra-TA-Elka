@@ -1,0 +1,50 @@
+% COVER PAGE
+\begin{titlepage}
+
+% khusus cover font yg digunakan adalah Trebuchet MS (bagian lain menggunakan Times New Roman)
+\fontspec{Trebuchet MS}
+
+% Logo pojok kiri atas
+\vspace*{-1.5cm} % geser naik 
+\noindent
+\includegraphics[width=2.5cm]{cover/logoITS.png} \\[1cm] 
+
+% Garis biru 
+\definecolor{ITSBlue}{RGB}{0,114,198}
+\noindent\hspace*{-3cm}\textcolor{ITSBlue}{\rule{\paperwidth}{1cm}} \\[0.3cm]
+
+% Kode TA
+\noindent
+{\fontsize{14pt}{14pt}\selectfont \textbf{PROPOSAL TUGAS AKHIR – \kodeTA}} \\[2cm]
+
+% Judul
+\noindent
+{\fontsize{18pt}{14pt}\selectfont \textbf{\judulTA}} \\[2cm]
+
+% Nama mahasiswa
+\noindent
+{\fontsize{14pt}{14pt}\selectfont \textbf{\namaMhs} \\ NRP \nrpMhs} \\[2cm]
+
+% Dosen pembimbing
+\noindent
+{\fontsize{14pt}{14pt}\selectfont Dosen Pembimbing} \\[0.3cm]
+\noindent
+{\fontsize{14pt}{14pt}\selectfont \textbf{\pembimbingSatu} \\ NIP \nipPembimbingSatu} \\[0.8cm]
+\noindent
+{\fontsize{14pt}{14pt}\selectfont \textbf{\pembimbingDua} \\ NIP \nipPembimbingDua} \\[2cm]
+
+% Program studi
+\noindent
+{\fontsize{12pt}{14pt}\selectfont \textbf{\prodi}} \\[0.3cm]
+\noindent
+{\fontsize{12pt}{14pt}\selectfont
+\depart \\
+\fakul \\
+\kampus \\
+\kota \\
+\tahundibuat}
+
+% Kembalikan font default (Times New Roman) setelah cover
+\normalfont
+
+\end{titlepage}

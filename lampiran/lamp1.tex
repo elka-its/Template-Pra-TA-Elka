@@ -1,0 +1,31 @@
+\clearpage
+\appendix % masuk mode lampiran
+\renewcommand{\thechapter}{\arabic{chapter}} % pastikan pakai angka
+
+\begin{center}
+% Judul
+{\fontsize{14pt}{14pt}\selectfont \textbf{LAMPIRAN 1}} \\[1.5cm]
+\end{center}
+
+
+%\chapter*{Lampiran 1} % tidak ikut counter bab
+%\addcontentsline{toc}{chapter}{Lampiran 1} % masuk daftar isi manual
+
+\renewcommand{\arraystretch}{1.2}
+
+\noindent
+\begin{tabularx}{\textwidth}{|c|>{\centering\arraybackslash}X|
+                                    >{\centering\arraybackslash}X|
+                                    >{\centering\arraybackslash}X|
+                                    >{\centering\arraybackslash}X|
+                                    >{\centering\arraybackslash}X|}
+\hline
+No. & Segmen & As & Panjang & Jumlah & Volume \\
+\hline
+1 & & & & & \\
+\hline
+2 & & & & & \\
+\hline
+3 & & & & & \\
+\hline
+\end{tabularx}
